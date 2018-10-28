@@ -50,6 +50,11 @@ public class Collections extends javax.swing.JFrame {
         jButton1.setBounds(170, 140, 89, 32);
 
         jButton2.setText("ArrayList");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2);
         jButton2.setBounds(300, 140, 89, 32);
 
@@ -58,6 +63,11 @@ public class Collections extends javax.swing.JFrame {
         jButton3.setBounds(430, 140, 89, 32);
 
         jButton4.setText("Funciones");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton4);
         jButton4.setBounds(300, 180, 89, 32);
 
@@ -92,6 +102,19 @@ public class Collections extends javax.swing.JFrame {
         l.setVisible(true);
         
     }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        String msj="Una ArrayList es un vector de almacenamiento de datos pero que\n"
+                + "tiene espacio dinamico, es decir, puede agrandarse o achicarse el\n"
+                + "tamaño del ArrayList.Al igual que la lista podemos almacenar\n"
+                + "cualquier tipo de dato u objeto.";
+        JOptionPane.showMessageDialog(null, msj);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        ArrayLists.AL1 a = new ArrayLists.AL1();
+        a.setVisible(true);
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
