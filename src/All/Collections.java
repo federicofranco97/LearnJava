@@ -69,6 +69,11 @@ public class Collections extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(0, 0, 0));
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("HashMap");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton3);
         jButton3.setBounds(430, 140, 89, 32);
 
@@ -154,6 +159,15 @@ public class Collections extends javax.swing.JFrame {
         main.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        String msj="HashMap es un vector de almacenamiento al igual que el ArrayList, la \n"
+                + "diferencia es que cada elemento del HashMap tiene una clave, y un contenido\n"
+                + "Esa clave vendria a ser como un numero de identificacion.\n"
+                + "Por ejemplo si se quiere hacer una base de datos de un supermercado\n"
+                + "usamos un HashMap con numero de producto, y despues el elemento producto.";
+        JOptionPane.showMessageDialog(null, msj);
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
