@@ -22,7 +22,6 @@ public class Collections extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -31,18 +30,13 @@ public class Collections extends javax.swing.JFrame {
         jButton6 = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jButton7 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Collections");
         setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(720, 330));
         getContentPane().setLayout(null);
-
-        jLabel1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Las formas de almacenar datos que usamos son:");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(76, 39, 574, 41);
 
         jButton1.setBackground(new java.awt.Color(0, 0, 0));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
@@ -118,6 +112,12 @@ public class Collections extends javax.swing.JFrame {
         });
         jPanel1.add(jButton7);
         jButton7.setBounds(170, 220, 350, 32);
+
+        jLabel1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Las estructuras para almacenar datos que usamos son:");
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(50, 40, 640, 41);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 740, 300);
