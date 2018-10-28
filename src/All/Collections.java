@@ -29,17 +29,22 @@ public class Collections extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Collections");
+        setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(720, 330));
         getContentPane().setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Las formas de almacenar datos que usamos son:");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(76, 39, 574, 41);
 
+        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("JList");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -49,6 +54,8 @@ public class Collections extends javax.swing.JFrame {
         getContentPane().add(jButton1);
         jButton1.setBounds(170, 140, 89, 32);
 
+        jButton2.setBackground(new java.awt.Color(0, 0, 0));
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("ArrayList");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,10 +65,14 @@ public class Collections extends javax.swing.JFrame {
         getContentPane().add(jButton2);
         jButton2.setBounds(300, 140, 89, 32);
 
+        jButton3.setBackground(new java.awt.Color(0, 0, 0));
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("HashMap");
         getContentPane().add(jButton3);
         jButton3.setBounds(430, 140, 89, 32);
 
+        jButton4.setBackground(new java.awt.Color(0, 0, 0));
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.setText("Funciones");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -71,6 +82,8 @@ public class Collections extends javax.swing.JFrame {
         getContentPane().add(jButton4);
         jButton4.setBounds(300, 180, 89, 32);
 
+        jButton5.setBackground(new java.awt.Color(0, 0, 0));
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Funciones");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,9 +93,15 @@ public class Collections extends javax.swing.JFrame {
         getContentPane().add(jButton5);
         jButton5.setBounds(170, 180, 89, 32);
 
+        jButton6.setBackground(new java.awt.Color(0, 0, 0));
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Funciones");
         getContentPane().add(jButton6);
         jButton6.setBounds(430, 180, 89, 32);
+
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 740, 300);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -162,5 +181,6 @@ public class Collections extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

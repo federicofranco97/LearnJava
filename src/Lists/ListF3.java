@@ -36,30 +36,55 @@ public class ListF3 extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTextArea3 = new javax.swing.JTextArea();
-        jButton1 = new javax.swing.JButton();
         jSeparator2 = new javax.swing.JSeparator();
+        jPanel1 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Funciones");
+        setMinimumSize(new java.awt.Dimension(893, 571));
+        getContentPane().setLayout(null);
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Agregar objetos a la Lista");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(55, 22, 293, 37);
 
         jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(0, 51, 51));
         jTextArea1.setColumns(20);
+        jTextArea1.setForeground(new java.awt.Color(255, 255, 255));
         jTextArea1.setRows(5);
         jTextArea1.setText("Para agregar un objeto a una lista podemos ingresar uno creado o podemos crearlo en el momento. Si el objeto ya esta creado solamente\nasignamos a la posicion que queremos el nombre del objeto que le dimos de la sig forma:  nombreLista [ posicion] = nombreObjeto;\nNOTA: El objeto que queremos meter tiene que ser del mismo tipo que el tipo de lista sino no funcionara.\nSi queremos crear el objeto en el momento tenemos que llamar al constructor de la clase que tenemos como tipo de la sig forma:\nnombreLista [ posicion] = new nombreClase();\nUsando el ejemplo del futbol seria algo asi: equipo[0] = new Jugador();\nde esta forma se llama al constructor de la clase Jugador que nos pide los datos para que complete el usuario.");
         jScrollPane1.setViewportView(jTextArea1);
 
+        getContentPane().add(jScrollPane1);
+        jScrollPane1.setBounds(55, 65, 814, 168);
+
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Funciones");
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(55, 317, 58, 16);
 
         jTextArea3.setEditable(false);
+        jTextArea3.setBackground(new java.awt.Color(0, 51, 51));
         jTextArea3.setColumns(20);
+        jTextArea3.setForeground(new java.awt.Color(255, 255, 255));
         jTextArea3.setRows(5);
         jTextArea3.setText("Al crear una lista de una clase especifia podemos usar las funciones que tiene esa clase. Por ejemplo en el ej de futbol, podemos usar toda\nfuncion que este creada en la clase Jugador. Entonces podemos hacer equipo[0].getGoles(); . Para traer los goles que marco el jugador. Esto\ntiene como fin poder analizar una lista de objetos y aplicarle la misma funcion a todos-, por ejemplo si quiero comparar que jugador tuvo mas goles\nRecorro la lista como se mostro antes, y para cada elemento del equipo le aplico la funcion get goles, y los comparo.");
         jTextArea3.setLineWrap(true);
         jScrollPane3.setViewportView(jTextArea3);
 
+        getContentPane().add(jScrollPane3);
+        jScrollPane3.setBounds(55, 345, 814, 122);
+        getContentPane().add(jSeparator2);
+        jSeparator2.setBounds(6, 289, 881, 22);
+
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+
+        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Fin");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -67,6 +92,8 @@ public class ListF3 extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(0, 0, 0));
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Anterior");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,49 +101,29 @@ public class ListF3 extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(55, 55, 55)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 692, Short.MAX_VALUE)
-                                .addComponent(jButton1))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jLabel3)
-                                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 814, Short.MAX_VALUE)
-                                .addComponent(jScrollPane1)
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 293, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 18, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jSeparator2)))
-                .addContainerGap())
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGap(53, 53, 53)
+                .addComponent(jButton3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 695, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addGap(30, 30, 30))
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(56, 56, 56)
-                .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(475, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton3))
-                .addContainerGap(22, Short.MAX_VALUE))
+                .addGap(63, 63, 63))
         );
+
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 900, 570);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -175,6 +182,7 @@ public class ListF3 extends javax.swing.JFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JSeparator jSeparator2;
