@@ -74,7 +74,7 @@ public class AL2 extends javax.swing.JFrame {
         getContentPane().add(jScrollPane2);
         jScrollPane2.setBounds(33, 284, 883, 100);
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setBackground(new java.awt.Color(0, 51, 51));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Siguiente");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -85,7 +85,7 @@ public class AL2 extends javax.swing.JFrame {
         getContentPane().add(jButton1);
         jButton1.setBounds(840, 390, 83, 32);
 
-        jButton2.setBackground(new java.awt.Color(0, 0, 0));
+        jButton2.setBackground(new java.awt.Color(0, 51, 51));
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Anterior");
         jButton2.addActionListener(new java.awt.event.ActionListener() {

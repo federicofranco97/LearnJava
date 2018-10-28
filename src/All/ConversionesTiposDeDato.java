@@ -63,7 +63,7 @@ public class ConversionesTiposDeDato extends javax.swing.JFrame {
         getContentPane().add(jLabel3);
         jLabel3.setBounds(115, 88, 796, 16);
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setBackground(new java.awt.Color(0, 51, 51));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("String a int");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -74,7 +74,7 @@ public class ConversionesTiposDeDato extends javax.swing.JFrame {
         getContentPane().add(jButton1);
         jButton1.setBounds(115, 159, 177, 32);
 
-        jButton2.setBackground(new java.awt.Color(0, 0, 0));
+        jButton2.setBackground(new java.awt.Color(0, 51, 51));
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("String a boolean");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -85,7 +85,7 @@ public class ConversionesTiposDeDato extends javax.swing.JFrame {
         getContentPane().add(jButton2);
         jButton2.setBounds(304, 159, 177, 32);
 
-        jButton3.setBackground(new java.awt.Color(0, 0, 0));
+        jButton3.setBackground(new java.awt.Color(0, 51, 51));
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("String a double");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -96,7 +96,7 @@ public class ConversionesTiposDeDato extends javax.swing.JFrame {
         getContentPane().add(jButton3);
         jButton3.setBounds(493, 159, 177, 32);
 
-        jButton4.setBackground(new java.awt.Color(0, 0, 0));
+        jButton4.setBackground(new java.awt.Color(0, 51, 51));
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.setText("Cualquiera a String");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -119,7 +119,7 @@ public class ConversionesTiposDeDato extends javax.swing.JFrame {
         getContentPane().add(jLabel5);
         jLabel5.setBounds(115, 275, 908, 16);
 
-        jButton5.setBackground(new java.awt.Color(0, 0, 0));
+        jButton5.setBackground(new java.awt.Color(0, 51, 51));
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Menu");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -130,7 +130,7 @@ public class ConversionesTiposDeDato extends javax.swing.JFrame {
         getContentPane().add(jButton5);
         jButton5.setBounds(115, 331, 143, 32);
 
-        jButton6.setBackground(new java.awt.Color(0, 0, 0));
+        jButton6.setBackground(new java.awt.Color(0, 51, 51));
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Salir");
         jButton6.addActionListener(new java.awt.event.ActionListener() {

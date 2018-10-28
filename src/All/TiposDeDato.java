@@ -44,11 +44,11 @@ public class TiposDeDato extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
-        jButton5.setBackground(new java.awt.Color(0, 0, 0));
+        jButton5.setBackground(new java.awt.Color(0, 51, 51));
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Practicar");
 
-        jButton6.setBackground(new java.awt.Color(0, 0, 0));
+        jButton6.setBackground(new java.awt.Color(0, 51, 51));
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Ver conversiones");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -57,7 +57,7 @@ public class TiposDeDato extends javax.swing.JFrame {
             }
         });
 
-        jButton7.setBackground(new java.awt.Color(0, 0, 0));
+        jButton7.setBackground(new java.awt.Color(0, 51, 51));
         jButton7.setForeground(new java.awt.Color(255, 255, 255));
         jButton7.setText("Menu");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -71,7 +71,7 @@ public class TiposDeDato extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Los tipos de dato mas usados son:");
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setBackground(new java.awt.Color(0, 51, 51));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("String");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -80,7 +80,7 @@ public class TiposDeDato extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(0, 0, 0));
+        jButton2.setBackground(new java.awt.Color(0, 51, 51));
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("int");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -89,7 +89,7 @@ public class TiposDeDato extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setBackground(new java.awt.Color(0, 0, 0));
+        jButton3.setBackground(new java.awt.Color(0, 51, 51));
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("boolean");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -98,7 +98,7 @@ public class TiposDeDato extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setBackground(new java.awt.Color(0, 0, 0));
+        jButton4.setBackground(new java.awt.Color(0, 51, 51));
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.setText("double");
         jButton4.addActionListener(new java.awt.event.ActionListener() {

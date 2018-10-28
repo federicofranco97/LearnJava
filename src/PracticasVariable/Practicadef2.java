@@ -30,7 +30,7 @@ public class Practicadef2 extends javax.swing.JFrame {
     public void agregarRtas(){
         textos.add("Instanciacion");
         textos.add("Definicion");
-        textos.add("Las Dos Anteriores");
+        textos.add("Instanciacion o Ambas");
     }
     
     public void agregarBotones(){
@@ -49,7 +49,7 @@ public class Practicadef2 extends javax.swing.JFrame {
     
     public void checkRta(int n){
         String aux=botones.get(n-1).getText();
-        if(aux.equals("Las Dos Anteriores")){
+        if(aux.equals("Instanciacion o Ambas")){
             JOptionPane.showMessageDialog(null, "Correcto!");
             PracticaCrear Crear = new PracticaCrear();
             Crear.setVisible(true);
@@ -84,7 +84,7 @@ public class Practicadef2 extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(72, 23, 271, 41);
 
-        btn1.setBackground(new java.awt.Color(0, 0, 0));
+        btn1.setBackground(new java.awt.Color(0, 51, 51));
         btn1.setForeground(new java.awt.Color(255, 255, 255));
         btn1.setText("rta 1");
         btn1.addActionListener(new java.awt.event.ActionListener() {
@@ -95,7 +95,7 @@ public class Practicadef2 extends javax.swing.JFrame {
         getContentPane().add(btn1);
         btn1.setBounds(72, 112, 244, 32);
 
-        btn3.setBackground(new java.awt.Color(0, 0, 0));
+        btn3.setBackground(new java.awt.Color(0, 51, 51));
         btn3.setForeground(new java.awt.Color(255, 255, 255));
         btn3.setText("rta3");
         btn3.addActionListener(new java.awt.event.ActionListener() {
@@ -106,7 +106,7 @@ public class Practicadef2 extends javax.swing.JFrame {
         getContentPane().add(btn3);
         btn3.setBounds(72, 188, 244, 32);
 
-        btn2.setBackground(new java.awt.Color(0, 0, 0));
+        btn2.setBackground(new java.awt.Color(0, 51, 51));
         btn2.setForeground(new java.awt.Color(255, 255, 255));
         btn2.setText("rta 2");
         btn2.addActionListener(new java.awt.event.ActionListener() {

@@ -80,7 +80,7 @@ public class ListF2 extends javax.swing.JFrame {
         getContentPane().add(jScrollPane3);
         jScrollPane3.setBounds(55, 345, 814, 122);
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setBackground(new java.awt.Color(0, 51, 51));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Siguiente");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -91,7 +91,7 @@ public class ListF2 extends javax.swing.JFrame {
         getContentPane().add(jButton1);
         jButton1.setBounds(790, 480, 83, 32);
 
-        jButton2.setBackground(new java.awt.Color(0, 0, 0));
+        jButton2.setBackground(new java.awt.Color(0, 51, 51));
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Explicacion del codigo");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -106,7 +106,7 @@ public class ListF2 extends javax.swing.JFrame {
         getContentPane().add(jSeparator2);
         jSeparator2.setBounds(6, 289, 881, 22);
 
-        jButton3.setBackground(new java.awt.Color(0, 0, 0));
+        jButton3.setBackground(new java.awt.Color(0, 51, 51));
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Anterior");
         jButton3.addActionListener(new java.awt.event.ActionListener() {

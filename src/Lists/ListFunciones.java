@@ -58,7 +58,7 @@ public class ListFunciones extends javax.swing.JFrame {
         jTextArea3.setText("En lista no podemos eliminar una posicion, lo que podemos hacer es borrar el valor que esta guardado en dicha posicion. Para eso hacemos \nlo siguiente, declaramos que en esa posicion no hay nada o null. Usando la lista que creamos arriba, seria asi la sintaxis:\npalabras[0]=null;\nDe esta forma declaramos que en la posicion 0 no hay nada. Tambien podemos sobreescribir la posicion, de la misma forma que \nagregamos un elemento. Si la posicion 0 contenia \"hola\", hacemos los siguiente: palabras[0]=\"chau\"; Sobreescribiendo el contenido de la pos.\n");
         jScrollPane3.setViewportView(jTextArea3);
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setBackground(new java.awt.Color(0, 51, 51));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Siguiente");
         jButton1.addActionListener(new java.awt.event.ActionListener() {

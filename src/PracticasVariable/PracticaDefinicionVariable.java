@@ -81,7 +81,7 @@ public class PracticaDefinicionVariable extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(400, 328));
         getContentPane().setLayout(null);
 
-        btn2.setBackground(new java.awt.Color(0, 0, 0));
+        btn2.setBackground(new java.awt.Color(0, 51, 51));
         btn2.setForeground(new java.awt.Color(255, 255, 255));
         btn2.setText("rta2");
         btn2.addActionListener(new java.awt.event.ActionListener() {
@@ -92,7 +92,7 @@ public class PracticaDefinicionVariable extends javax.swing.JFrame {
         getContentPane().add(btn2);
         btn2.setBounds(60, 140, 260, 30);
 
-        btn1.setBackground(new java.awt.Color(0, 0, 0));
+        btn1.setBackground(new java.awt.Color(0, 51, 51));
         btn1.setForeground(new java.awt.Color(255, 255, 255));
         btn1.setText("rta1");
         btn1.addActionListener(new java.awt.event.ActionListener() {
@@ -110,7 +110,7 @@ public class PracticaDefinicionVariable extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(97, 46, 200, 41);
 
-        btn3.setBackground(new java.awt.Color(0, 0, 0));
+        btn3.setBackground(new java.awt.Color(0, 51, 51));
         btn3.setForeground(new java.awt.Color(255, 255, 255));
         btn3.setText("rta3");
         btn3.addActionListener(new java.awt.event.ActionListener() {
@@ -121,7 +121,7 @@ public class PracticaDefinicionVariable extends javax.swing.JFrame {
         getContentPane().add(btn3);
         btn3.setBounds(60, 180, 260, 30);
 
-        btn4.setBackground(new java.awt.Color(0, 0, 0));
+        btn4.setBackground(new java.awt.Color(0, 51, 51));
         btn4.setForeground(new java.awt.Color(255, 255, 255));
         btn4.setText("rta4");
         btn4.addActionListener(new java.awt.event.ActionListener() {

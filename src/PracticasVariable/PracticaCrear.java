@@ -83,7 +83,7 @@ public class PracticaCrear extends javax.swing.JFrame {
         txt2.setBackground(new java.awt.Color(0, 51, 51));
         txt2.setForeground(new java.awt.Color(255, 255, 255));
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setBackground(new java.awt.Color(0, 51, 51));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Verificar Respuestas");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
