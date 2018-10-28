@@ -9,12 +9,12 @@ package Vids;
  *
  * @author Fede
  */
-public class ContenidoClase extends javax.swing.JFrame {
+public class SinParam extends javax.swing.JFrame {
 
     /**
-     * Creates new form ContenidoClase
+     * Creates new form SinParam
      */
-    public ContenidoClase() {
+    public SinParam() {
         initComponents();
         setLocationRelativeTo(null);
     }
@@ -29,10 +29,12 @@ public class ContenidoClase extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(1310, 904));
+        setTitle("Metodo sin Parametros");
+        setMinimumSize(new java.awt.Dimension(692, 470));
         getContentPane().setLayout(null);
 
         jButton1.setText("Cerrar");
@@ -42,11 +44,18 @@ public class ContenidoClase extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(1060, 780, 150, 50);
+        jButton1.setBounds(510, 110, 110, 40);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assets/QuePoner.gif"))); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("u otras funciones");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(430, 260, 150, 30);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assets/sinParam.png"))); // NOI18N
+        jLabel1.setText("jLabel1");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 1309, 904);
+        jLabel1.setBounds(0, 0, 695, 470);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -72,20 +81,20 @@ public class ContenidoClase extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(ContenidoClase.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SinParam.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(ContenidoClase.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SinParam.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(ContenidoClase.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SinParam.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(ContenidoClase.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SinParam.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ContenidoClase().setVisible(true);
+                new SinParam().setVisible(true);
             }
         });
     }
@@ -93,5 +102,6 @@ public class ContenidoClase extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }

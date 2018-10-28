@@ -5,16 +5,18 @@
  */
 package Vids;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Fede
  */
-public class ContenidoClase extends javax.swing.JFrame {
+public class ConArray extends javax.swing.JFrame {
 
     /**
-     * Creates new form ContenidoClase
+     * Creates new form SinParam
      */
-    public ContenidoClase() {
+    public ConArray() {
         initComponents();
         setLocationRelativeTo(null);
     }
@@ -29,10 +31,12 @@ public class ContenidoClase extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(1310, 904));
+        setTitle("Busqueda con Arrays");
+        setMinimumSize(new java.awt.Dimension(635, 580));
         getContentPane().setLayout(null);
 
         jButton1.setText("Cerrar");
@@ -42,11 +46,16 @@ public class ContenidoClase extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(1060, 780, 150, 50);
+        jButton1.setBounds(440, 420, 110, 40);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assets/QuePoner.gif"))); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("Lo que hace el metodo es incrementar el valor de i, para ir recorriendo todas las posiciones del Array");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(30, 130, 580, 40);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assets/conArrays.png"))); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 1309, 904);
+        jLabel1.setBounds(0, 0, 640, 580);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -72,20 +81,27 @@ public class ContenidoClase extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(ContenidoClase.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ConArray.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(ContenidoClase.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ConArray.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(ContenidoClase.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ConArray.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(ContenidoClase.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ConArray.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ContenidoClase().setVisible(true);
+                new ConArray().setVisible(true);
             }
         });
     }
@@ -93,5 +109,6 @@ public class ContenidoClase extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }

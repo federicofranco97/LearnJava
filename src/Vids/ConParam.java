@@ -9,12 +9,12 @@ package Vids;
  *
  * @author Fede
  */
-public class ContenidoClase extends javax.swing.JFrame {
+public class ConParam extends javax.swing.JFrame {
 
     /**
-     * Creates new form ContenidoClase
+     * Creates new form SinParam
      */
-    public ContenidoClase() {
+    public ConParam() {
         initComponents();
         setLocationRelativeTo(null);
     }
@@ -32,7 +32,8 @@ public class ContenidoClase extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(1310, 904));
+        setTitle("Metodo Con Parametros");
+        setMinimumSize(new java.awt.Dimension(463, 652));
         getContentPane().setLayout(null);
 
         jButton1.setText("Cerrar");
@@ -42,11 +43,11 @@ public class ContenidoClase extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(1060, 780, 150, 50);
+        jButton1.setBounds(310, 210, 110, 40);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assets/QuePoner.gif"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assets/conParam.png"))); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 1309, 904);
+        jLabel1.setBounds(0, 0, 460, 650);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -72,20 +73,21 @@ public class ContenidoClase extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(ContenidoClase.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ConParam.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(ContenidoClase.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ConParam.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(ContenidoClase.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ConParam.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(ContenidoClase.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ConParam.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ContenidoClase().setVisible(true);
+                new ConParam().setVisible(true);
             }
         });
     }
