@@ -16,6 +16,7 @@ public class CrearProyecto extends javax.swing.JFrame {
      */
     public CrearProyecto() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
