@@ -47,6 +47,11 @@ public class TiposDeDato extends javax.swing.JFrame {
         jButton5.setBackground(new java.awt.Color(0, 51, 51));
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Practicar");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
 
         jButton6.setBackground(new java.awt.Color(0, 51, 51));
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
@@ -217,6 +222,11 @@ public class TiposDeDato extends javax.swing.JFrame {
         main.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        PracticaDatos.MC1 mC1 = new PracticaDatos.MC1();
+        mC1.setVisible(true);
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
