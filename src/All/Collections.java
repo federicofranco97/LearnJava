@@ -96,6 +96,11 @@ public class Collections extends javax.swing.JFrame {
         jButton6.setBackground(new java.awt.Color(0, 51, 51));
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Funciones");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton6);
         jButton6.setBounds(430, 180, 89, 32);
 
@@ -168,6 +173,11 @@ public class Collections extends javax.swing.JFrame {
                 + "usamos un HashMap con numero de producto, y despues el elemento producto.";
         JOptionPane.showMessageDialog(null, msj);
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        HashMap.HM1 hM1 = new HashMap.HM1();
+        hM1.setVisible(true);
+    }//GEN-LAST:event_jButton6ActionPerformed
 
     /**
      * @param args the command line arguments

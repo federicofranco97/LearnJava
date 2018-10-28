@@ -110,7 +110,7 @@ public class AL3 extends javax.swing.JFrame {
         );
 
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(10, 0, 960, 490);
+        jPanel1.setBounds(0, 0, 960, 490);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

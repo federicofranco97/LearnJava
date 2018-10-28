@@ -39,7 +39,7 @@ public class Variables extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
-        jButton2.setBackground(new java.awt.Color(0, 0, 0));
+        jButton2.setBackground(new java.awt.Color(0, 51, 51));
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Como crearlas");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -48,7 +48,7 @@ public class Variables extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setBackground(new java.awt.Color(0, 51, 51));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Definicion");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -57,7 +57,7 @@ public class Variables extends javax.swing.JFrame {
             }
         });
 
-        jButton8.setBackground(new java.awt.Color(0, 0, 0));
+        jButton8.setBackground(new java.awt.Color(0, 51, 51));
         jButton8.setForeground(new java.awt.Color(255, 255, 255));
         jButton8.setText("Clasificaciones");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -66,7 +66,7 @@ public class Variables extends javax.swing.JFrame {
             }
         });
 
-        jButton5.setBackground(new java.awt.Color(0, 0, 0));
+        jButton5.setBackground(new java.awt.Color(0, 51, 51));
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Ver Tipos de Dato");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -75,7 +75,7 @@ public class Variables extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setBackground(new java.awt.Color(0, 0, 0));
+        jButton4.setBackground(new java.awt.Color(0, 51, 51));
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.setText("Usos");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -84,7 +84,7 @@ public class Variables extends javax.swing.JFrame {
             }
         });
 
-        jButton6.setBackground(new java.awt.Color(0, 0, 0));
+        jButton6.setBackground(new java.awt.Color(0, 51, 51));
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Salir");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -93,7 +93,7 @@ public class Variables extends javax.swing.JFrame {
             }
         });
 
-        jButton7.setBackground(new java.awt.Color(0, 0, 0));
+        jButton7.setBackground(new java.awt.Color(0, 51, 51));
         jButton7.setForeground(new java.awt.Color(255, 255, 255));
         jButton7.setText("Menu");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -102,7 +102,7 @@ public class Variables extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setBackground(new java.awt.Color(0, 0, 0));
+        jButton3.setBackground(new java.awt.Color(0, 51, 51));
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Practicar");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
