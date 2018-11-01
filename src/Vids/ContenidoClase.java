@@ -42,7 +42,7 @@ public class ContenidoClase extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(1060, 780, 150, 50);
+        jButton1.setBounds(40, 330, 150, 50);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assets/QuePoner.gif"))); // NOI18N
         getContentPane().add(jLabel1);

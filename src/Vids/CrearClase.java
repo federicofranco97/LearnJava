@@ -44,7 +44,7 @@ public class CrearClase extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(1470, 780, 170, 60);
+        jButton1.setBounds(20, 380, 170, 60);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assets/CrearClase.gif"))); // NOI18N
         jLabel1.setMinimumSize(new java.awt.Dimension(1720, 1000));

@@ -46,7 +46,7 @@ public class CrearProyecto extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(1400, 840, 170, 60);
+        jButton1.setBounds(1190, 440, 170, 60);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assets/CrearProyecto.gif"))); // NOI18N
         jLabel1.setMinimumSize(new java.awt.Dimension(1720, 1000));
